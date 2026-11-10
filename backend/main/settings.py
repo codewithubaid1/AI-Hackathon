@@ -98,8 +98,8 @@ AUTH_SETTINGS = {
     "OAUTH_PROVIDERS": {
         "google": {
             "ENABLED":  True,
-            "CLIENT_ID": os.getenv("GOOGLE_CLIENT_ID", ""),
-            "CLIENT_SECRET":os.getenv("GOOGLE_SECRET", ""),
+            "CLIENT_ID": "510420779843-9v4n7gns1b7h5gjoog5d7oj0euh638bu.apps.googleusercontent.com",
+            "CLIENT_SECRET":"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",
             "REDIRECT_URI": "http://localhost:8000/api/v1/accounts/oauth/google/callback/",
 
             "SCOPES": ["openid","email","profile"]
